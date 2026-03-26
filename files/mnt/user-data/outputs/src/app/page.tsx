@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useState } from "react";
 
 // ─── Mock Data ────────────────────────────────────────────────────────────────
@@ -323,14 +322,14 @@ export default function Home() {
       <header className="sticky top-0 z-50 bg-white border-b border-zinc-200 shadow-sm">
         <div className="max-w-7xl mx-auto px-4 h-14 flex items-center justify-between gap-4">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 shrink-0">
+          <a href="/" className="flex items-center gap-2 shrink-0">
             <div className="w-8 h-8 bg-emerald-600 rounded-lg flex items-center justify-center">
               <span className="text-white text-sm font-black">TS</span>
             </div>
             <span className="text-lg font-black text-zinc-900 tracking-tight hidden sm:block">
               Terrain<span className="text-emerald-600">Sur</span>
             </span>
-          </Link>
+          </a>
 
           {/* Nav centrale */}
           <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-zinc-600">
@@ -380,7 +379,7 @@ export default function Home() {
               <span className="text-emerald-600">partout en Afrique</span>
             </h1>
             <p className="mt-2 text-zinc-500 text-base leading-relaxed">
-              Des milliers d&apos;annonces de terrains à vendre — résidentiels, agricoles, commerciaux — dans 28 pays africains.
+              Des milliers d'annonces de terrains à vendre — résidentiels, agricoles, commerciaux — dans 28 pays africains.
             </p>
           </div>
 
@@ -607,7 +606,7 @@ export default function Home() {
                 <span className="font-black text-white">TerrainSur</span>
               </div>
               <p className="text-xs text-zinc-500 leading-relaxed">
-                La plateforme de référence pour l&apos;achat et la vente de terrains en Afrique.
+                La plateforme de référence pour l'achat et la vente de terrains en Afrique.
               </p>
             </div>
             {[
@@ -638,7 +637,7 @@ export default function Home() {
           </div>
           <div className="border-t border-zinc-800 pt-6 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs text-zinc-600">
             <p>© 2025 TerrainSur. Tous droits réservés.</p>
-            <p>Fait avec ❤️ pour l&apos;Afrique</p>
+            <p>Fait avec ❤️ pour l'Afrique</p>
           </div>
         </div>
       </footer>
